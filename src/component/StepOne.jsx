@@ -94,18 +94,7 @@ const StepOne = () => {
               </select>
               <p className="errorMsg"> Please select a client name</p>
             </div>
-            <div className="add-new-client">
-              <span>Or</span>
-
-              <button onClick={onAddClientHandler}>
-                <img
-                  height={12}
-                  width={12}
-                  src={window.location.origin + "/plus.png"}
-                />{" "}
-                <span>Add Client</span>
-              </button>
-            </div>
+          
           </div>
         </div>
         <div className="form-field date-field">
